@@ -1,0 +1,68 @@
+{
+"configs" : [
+  {
+"server" : "us01.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+,
+  {
+"server" : "us02.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+,
+  {
+"server" : "us03.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+,
+  {
+"server" : "hk01.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+,
+  {
+"server" : "hk02.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+,
+  {
+"server" : "hk03.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+,
+  {
+"server" : "tw01.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+,
+  {
+"server" : "kr01.ssss.io",
+"server_port" : 25755,
+"password" : "522843",
+"method" : "rc4-md5",
+"remarks" : ""}
+
+],
+"strategy" : null,
+"index" : 3,
+"global" : false,
+"enabled" : true,
+"shareOverLan" : false,
+"isDefault" : false,
+"localPort" : 1080,
+"pacUrl" : null,
+"useOnlinePac" : false}
