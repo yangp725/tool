@@ -1,2 +1,1 @@
-sublime:
-\Sublime Text3\Data\Packages\User
+常用工具设置
