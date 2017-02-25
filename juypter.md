@@ -1,4 +1,4 @@
-### anaconda
+### Anaconda
 https://www.continuum.io/downloads#linux
 
 修改路径vim .bashrc
