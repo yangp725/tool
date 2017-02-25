@@ -1,6 +1,6 @@
 ### 常用shell命令
 
-进入数据库 mongo
+####进入数据库 mongo
 
 show dbs
 
@@ -8,7 +8,7 @@ use database
 
 show collections
 
-查询：
+####查询：
 
 db.arch.find({'name':'ATION'})
 
@@ -20,14 +20,14 @@ db.arch.find({'name':'ATION'})
 
 
 
-导入导出
+####导入导出
 
 mongoimport -d arch -c cleaned --type json --file final.json
 mongoexport --db test --collection traffic --out traffic.json
 
 
 
-使用mongoDB生成的_id的时间信息：
+####使用mongoDB生成的_id的时间信息：
 
     // This function returns an ObjectId embedded with a given datetime
     // Accepts both Date object and string input
