@@ -23,6 +23,7 @@ db.arch.find({'name':'ATION'})
 ####导入导出
 
 mongoimport -d arch -c cleaned --type json --file final.json
+
 mongoexport --db test --collection traffic --out traffic.json
 
 
