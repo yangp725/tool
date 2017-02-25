@@ -1,4 +1,4 @@
-##(anaconda)[https://www.continuum.io/downloads#linux]
+### (anaconda)[https://www.continuum.io/downloads#linux]
 
 修改路径vim .bashrc
 export PATH="/home/yg/anaconda3/bin:$PATH"
