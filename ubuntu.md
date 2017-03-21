@@ -43,3 +43,20 @@ http://wps-community.org/downloads
 生成公钥私钥 ssh-keygen -b  2048
 
 公钥拷贝 cat ~/.ssh/id_rsa.pub 
+
+### Typora
+
+https://typora.io/#linux
+
+1)optional, but recommended
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+
+2)add Typora's repository
+
+sudo add-apt-repository 'deb https://typora.io ./linux/'
+sudo apt-get update
+
+3)install typora
+
+sudo apt-get install typora
