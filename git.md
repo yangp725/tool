@@ -3,6 +3,8 @@
 生成SSH key:
 ssh-keygen -t rsa -C "your email"
 
+(ssh-keygen -t rsa -C "youremail@email.com" -f ~/.ssh/second)
+
  cat .ssh/id_rsa.pub 
 
 然后将id_rsa.pub的内容拷贝到github

@@ -40,8 +40,6 @@ http://wps-community.org/downloads
 
 ### server
 
-生成公钥私钥，类似：
-longman@longman:~$ ssh-keygen -b  2048
-公钥拷贝给我，类似：
+生成公钥私钥 ssh-keygen -b  2048
 
-longman@longman:~/.ssh$ cat id_rsa.pub 
+公钥拷贝 cat ~/.ssh/id_rsa.pub 
