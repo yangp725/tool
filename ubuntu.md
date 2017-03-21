@@ -1,5 +1,9 @@
 ## Ubuntu
 
+### 初始
+
+sudo apt-get install git vim g++ wget terminator
+
 ### 搜狗输入法
 
 1）官网下载http://pinyin.sogou.com/linux/?r=pinyin
@@ -60,3 +64,27 @@ sudo apt-get update
 3)install typora
 
 sudo apt-get install typora
+
+### 修改pip下载源
+
+https://segmentfault.com/a/1190000006111096
+
+vi ~/.pip/pip.conf
+
+```
+ [global]
+ trusted-host =  mirrors.aliyun.com
+ index-url = http://mirrors.aliyun.com/pypi/simple
+```
+
+豆瓣源（https://pypi.douban.com/simple/）好像没什么用？！
+
+### ZSH
+
+sudo apt-get install zsh
+
+wget --no-check-certificate [https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh](https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh) -O - | sh
+
+chsh -s /bin/zsh
+
+reboot or re-login # or reopen the terminator
