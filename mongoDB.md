@@ -18,6 +18,10 @@ db.arch.find({'name':'ATION'})
 
 设置参数，{\$gt:},(\$gte, \$lt, \$lte)
 
+db.archilovers_people.find({项目url: {$size: 1}})
+
+db.getCollection('collectionName').find({'ArrayName.1': {$exists: true}})
+
 
 
 导入导出
