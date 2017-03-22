@@ -4,6 +4,14 @@
 
 sudo apt-get install git vim g++ wget terminator
 
+### terminator
+
+http://blog.wentong.me/2014/05/work-with-terminator/
+
+http://woshijpf.github.io/2016/04/18/Terminator/
+
+配置文件（可以使用man terminator_config查看）：vim ~/.config/terminator/config
+
 ### 搜狗输入法
 
 1）官网下载http://pinyin.sogou.com/linux/?r=pinyin
@@ -33,6 +41,14 @@ chromium: Ubuntu Software
 https://www.continuum.io/downloads#linux
 
 bash Anaconda3-4.3.1-Linux-x86_64.sh 
+
+修改zsh设置：
+
+vim ~/.zshrc，要将.bashrc中的一些设置加入其中
+
+> PATH="\$PATH:$HOME/anaconda3/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+source ~/.zshrc
 
 ### shadowsock-qt5
 
@@ -88,3 +104,9 @@ wget --no-check-certificate [https://github.com/robbyrussell/oh-my-zsh/raw/maste
 chsh -s /bin/zsh
 
 reboot or re-login # or reopen the terminator
+
+### torch
+
+https://pytorch.org/
+
+下载wheel文件使用pip安装（注意：不能修改wheel文件名）
