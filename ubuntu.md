@@ -12,7 +12,7 @@ http://woshijpf.github.io/2016/04/18/Terminator/
 
 配置文件（可以使用man terminator_config查看）：vim ~/.config/terminator/config
 
-### 搜狗输入法
+### 搜狗输入法(不要用！)
 
 1）官网下载http://pinyin.sogou.com/linux/?r=pinyin
 
@@ -23,6 +23,10 @@ http://woshijpf.github.io/2016/04/18/Terminator/
 3）然后在language support把keyboard input method system改成fcitx
 
 4）系统右上角会弹出键盘符号，点击搜索出搜狗输入法即可。
+
+### google 拼音
+
+sudo apt-get install fcitx-googlepinyin
 
 ### TeamViewer
 
