@@ -60,7 +60,7 @@ https://github.com/yangp725/tool/blob/master/shadowsocks/ubuntu.txt
 
 ### WPS
 
-http://wps-community.org/downloads
+http://community.wps.cn/download/，找Beta或者后期版本
 
 ### server
 
