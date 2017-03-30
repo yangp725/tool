@@ -19,3 +19,22 @@ sublime使用设置
 	"trim_trailing_white_space_on_save": true
 	}
 
+### 支持中文
+
+https://segmentfault.com/a/1190000002461891
+
+1.在Sublime Text里，按ctrl+`，打开Console，一次性输入如下代码：
+
+```
+import urllib.request,os;
+pf = 'Package Control.sublime-package';
+ipp = sublime.installed_packages_path();
+urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) );
+open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+```
+
+2.重启Sublime Text。
+
+3.在Sublime Text中，按Ctrl+Shift+P打开命令行模式，输入Install Package关键字，然后点击自动出现的下拉菜单里的第一项：Package Control: Install Package。
+
+4.此时你会看到左下角有个=号来回动，稍等一会，会再次在命令行下弹出一个下拉菜单。输入“ConvertToUTF8”或者“GBK Encoding Support”，选择匹配项。中文字符就可以正常显示了。
