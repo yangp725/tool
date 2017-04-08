@@ -42,7 +42,7 @@ chromium: Ubuntu Software
 
 ### anaconda
 
-https://www.continuum.io/downloads#linux
+https://www.continuum.io/downloads#linux OR https://repo.continuum.io/archive/index.html
 
 bash Anaconda3-4.3.1-Linux-x86_64.sh 
 
@@ -86,6 +86,10 @@ sudo apt-get update
 sudo apt-get install typora
 
 ### 修改pip下载源
+
+在pipi install的最后加上 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
 
 https://segmentfault.com/a/1190000006111096
 
