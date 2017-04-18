@@ -118,3 +118,8 @@ reboot or re-login # or reopen the terminator
 https://pytorch.org/
 
 下载wheel文件使用pip安装（注意：不能修改wheel文件名）
+
+### screen
+
+https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
+
