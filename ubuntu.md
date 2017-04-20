@@ -140,6 +140,8 @@ https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
 重新进入terminal，
 
 > mkvirtualenv -p /usr/bin/python py2_yp
+>
+> mkvirtualenv -p /usr/local/bin/python3 py2_yp
 
 > workon py2_yp （进入）
 
