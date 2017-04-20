@@ -87,11 +87,13 @@ sudo apt-get install typora
 
 ### 修改pip下载源
 
-在pipi install的最后加上 -i https://pypi.tuna.tsinghua.edu.cn/simple
-
-
-
 https://segmentfault.com/a/1190000006111096
+
+在pip install的最后加上 
+
+> -i https://pypi.tuna.tsinghua.edu.cn/simple   (清华源)
+
+> -i https://pypi.douban.com/simple (豆瓣源)
 
 vi ~/.pip/pip.conf
 
@@ -101,17 +103,17 @@ vi ~/.pip/pip.conf
  index-url = http://mirrors.aliyun.com/pypi/simple
 ```
 
-豆瓣源（https://pypi.douban.com/simple/）好像没什么用？！
+
 
 ### ZSH
 
-sudo apt-get install zsh
-
-wget --no-check-certificate [https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh](https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh) -O - | sh
-
-chsh -s /bin/zsh
-
-reboot or re-login # or reopen the terminator
+> sudo apt-get install zsh
+>
+> wget --no-check-certificate [https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh](https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh) -O - | sh
+>
+> chsh -s /bin/zsh
+>
+> reboot or re-login # or reopen the terminator
 
 ### torch
 
@@ -123,3 +125,24 @@ https://pytorch.org/
 
 https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
 
+### 虚拟环境
+
+（http://virtualenvwrapper.readthedocs.io/en/latest/install.html）
+
+> pip install virtualenvwrapper / pip install --user virtualenvwrapper  
+
+然后修改.bahrc
+
+> export WORKON_HOME=$HOME/.virtualenvs
+> export PROJECT_HOME=$HOME/Devel
+> source /home/yangpeng/.local/bin/virtualenvwrapper.sh	
+
+重新进入terminal，
+
+> mkvirtualenv -p /usr/bin/python py2_yp
+
+> workon py2_yp （进入）
+
+> deactivate (退出)
+
+在虚拟环境中，不使用sudo权限就可以把包安装在虚拟环境中了。
