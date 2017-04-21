@@ -129,6 +129,8 @@ https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
 
 （http://virtualenvwrapper.readthedocs.io/en/latest/install.html）
 
+(http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html)
+
 > pip install virtualenvwrapper / pip install --user virtualenvwrapper  
 
 然后修改.bahrc
