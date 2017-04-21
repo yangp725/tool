@@ -12,6 +12,10 @@ http://woshijpf.github.io/2016/04/18/Terminator/
 
 配置文件（可以使用man terminator_config查看）：vim ~/.config/terminator/config
 
+cursor shape, (Menu->Edit->Profile Preferences->General Tab -> "Cursor Shape" and "I beam")
+
+color table, http://www.sioe.cn/yingyong/yanse-rgb-16/
+
 ### 搜狗输入法(不要用！)
 
 1）官网下载http://pinyin.sogou.com/linux/?r=pinyin
