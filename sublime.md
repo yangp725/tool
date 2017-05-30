@@ -26,11 +26,7 @@ https://segmentfault.com/a/1190000002461891
 1.在Sublime Text里，按ctrl+`，打开Console，一次性输入如下代码：
 
 ```
-import urllib.request,os;
-pf = 'Package Control.sublime-package';
-ipp = sublime.installed_packages_path();
-urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) );
-open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+import urllib.request,os;pf = 'Package Control.sublime-package';ipp = sublime.installed_packages_path();urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) );open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
 
 2.重启Sublime Text。
