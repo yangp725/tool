@@ -160,3 +160,21 @@ https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
 > deactivate (退出)
 
 在虚拟环境中，不使用sudo权限就可以把包安装在虚拟环境中了。
+
+
+
+## ubuntu onedrive
+
+https://linux.cn/article-3362-1.html
+
+https://github.com/xybu/onedrive-d-old
+
+> git clone https://github.com/xybu92/onedrive-d.git
+>
+> cd onedrive-d
+>
+> ./install.sh
+
+运行 onedrive-pref 进行配置https://github.com/xybu/onedrive-d-old/issues/134
+
+运行 onedrive-d start 启动
