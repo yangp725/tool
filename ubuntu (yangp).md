@@ -28,12 +28,6 @@ color table, http://www.sioe.cn/yingyong/yanse-rgb-16/
 
 4）系统右上角会弹出键盘符号，点击搜索出搜狗输入法即可。
 
-*卸载：*http://codepub.cn/2015/11/27/Ubuntu14-10-install-and-uninstall-sogou-input-method/
-
-> 命令查看下安装的搜狗拼音输入法 sudo dpkg -l so*
->
-> 然后卸载搜狗拼音 sudo apt-get purge sogoupinyin
-
 ### google 拼音
 
 sudo apt-get install fcitx-googlepinyin
@@ -160,3 +154,21 @@ https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
 > deactivate (退出)
 
 在虚拟环境中，不使用sudo权限就可以把包安装在虚拟环境中了。
+
+
+
+## ubuntu onedrive
+
+https://linux.cn/article-3362-1.html
+
+https://github.com/xybu/onedrive-d-old
+
+> git clone https://github.com/xybu92/onedrive-d.git
+>
+> cd onedrive-d
+>
+> ./install.sh
+
+运行 onedrive-pref 进行配置https://github.com/xybu/onedrive-d-old/issues/134
+
+运行 onedrive-d start 启动
