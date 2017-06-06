@@ -70,7 +70,11 @@ https://github.com/yangp725/tool/blob/master/shadowsocks/ubuntu.txt
 
 ### WPS
 
-http://community.wps.cn/download/，找Beta或者后期版本
+64位安装后无法打开, 使用32位版本, 
+
+> http://community.wps.cn/download/
+
+> http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5672~a21_i386.deb
 
 ### server
 
