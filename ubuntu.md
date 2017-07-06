@@ -117,6 +117,10 @@ vi ~/.pip/pip.conf
  index-url = http://mirrors.aliyun.com/pypi/simple
 ```
 
+**pip更新安装包**：
+
+pip install Package --upgrade
+
 
 
 ### ZSH
