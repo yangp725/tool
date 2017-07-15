@@ -11,7 +11,30 @@ http://blog.wentong.me/2014/05/work-with-terminator/
 http://woshijpf.github.io/2016/04/18/Terminator/
 
 配置文件（可以使用man terminator_config查看）：vim ~/.config/terminator/config
-
+```
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.97
+    background_image = None
+    background_type = transparent
+    cursor_color = "#228B22"
+    cursor_shape = ibeam
+    font = Monospace Regular 12
+    foreground_color = "#eee9e9"
+    login_shell = True
+    show_titlebar = False
+```
 cursor shape, (Menu->Edit->Profile Preferences->General Tab -> "Cursor Shape" and "I beam")
 
 color table, http://www.sioe.cn/yingyong/yanse-rgb-16/
