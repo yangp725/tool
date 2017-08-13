@@ -6,9 +6,9 @@ sublime使用设置
 
 	{
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-	"font_face": "courier New",
+	"font_face": "courier New bold",
 	"font_size": 14,
-	"font_weight": "bold",
+	//"font_weight": "bold",
 	"highlight_line": true,
 	"rulers":[80],
 	"save_on_focus_lost": true,
