@@ -26,6 +26,7 @@ jupyter notebook --generate-config
 ```
 2.在terminal打开ipython，生成密码明文
 ```
+ipython
 from notebook.auth import passwd
 passwd()
 ```
@@ -35,9 +36,9 @@ passwd()
 vim ~/.jupyter/jupyter_notebook_config.py
 ```
 c.NotebookApp.ip='*'
-c.NotebookApp.password = u'sha1:e88109549gtb:74f330f22223608e137169d09eb82d5f1d03fe3d'
-c.NotebookApp.open_browser = False
-c.NotebookApp.port = 8888
+c.NotebookApp.password=u'sha1:e8..'
+c.NotebookApp.open_browser=False
+c.NotebookApp.port=8888
 ```
 加入上边代码，修改psw和port
 
