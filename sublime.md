@@ -1,3 +1,5 @@
+下载: https://www.sublimetext.com/3
+
 sublime使用设置
 
 \Sublime Text3\Data\Packages\User\Preferences.sublime-settings
