@@ -129,6 +129,7 @@ https://segmentfault.com/a/1190000006111096
 在pip install的最后加上 
 ```
  -i https://pypi.tuna.tsinghua.edu.cn/simple
+ -i http://mirrors.aliyun.com/pypi/simple
  -i https://pypi.douban.com/simple
 ```
 vim ~/.pip/pip.conf
@@ -137,8 +138,7 @@ vim ~/.pip/pip.conf
 trusted-host=pypi.tuna.tsinghua.edu.cn 
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-**pip更新安装包**：  
-pip install Package --upgrade
+**pip更新安装包**： pip install Package --upgrade
 
 ### ZSH
 > sudo apt-get install zsh
