@@ -193,16 +193,16 @@ source /home/yangpeng/.local/bin/virtualenvwrapper.sh
 
 
 
-## ubuntu onedrive
-
-https://linux.cn/article-3362-1.html
-
+###ubuntu onedrive
+https://linux.cn/article-3362-1.html  
 https://github.com/xybu/onedrive-d-old
 ```
 git clone https://github.com/xybu92/onedrive-d.git
 cd onedrive-d
 ./install.sh
 ```
-运行 onedrive-pref 进行配置https://github.com/xybu/onedrive-d-old/issues/134
-
+运行 onedrive-pref 进行配置https://github.com/xybu/onedrive-d-old/issues/134  
 运行 onedrive-d start 启动
+
+###添加用户
+https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
