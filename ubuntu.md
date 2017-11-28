@@ -39,7 +39,7 @@ cursor shape, (Menu->Edit->Profile Preferences->General Tab -> "Cursor Shape" an
 
 color table, http://www.sioe.cn/yingyong/yanse-rgb-16/
 
-### 搜狗输入法(不要用！)
+### 搜狗输入法
 
 1）官网下载http://pinyin.sogou.com/linux/?r=pinyin
 
@@ -155,7 +155,7 @@ pip install Package --upgrade
 >
 > reboot or re-login # or reopen the terminator
 
-### torch
+### PyTorch
 
 https://pytorch.org/
 
@@ -174,11 +174,11 @@ https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
 > pip install virtualenvwrapper / pip install --user virtualenvwrapper  
 
 然后修改.bahrc
-
-> export WORKON_HOME=$HOME/.virtualenvs
-> export PROJECT_HOME=$HOME/Devel
-> source /home/yangpeng/.local/bin/virtualenvwrapper.sh	
-
+```
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /home/yangpeng/.local/bin/virtualenvwrapper.sh	
+```
 重新进入terminal，
 
 > mkvirtualenv -p /usr/bin/python py2_yp
@@ -198,13 +198,11 @@ https://www.vultr.com/docs/using-screen-on-ubuntu-14-04
 https://linux.cn/article-3362-1.html
 
 https://github.com/xybu/onedrive-d-old
-
-> git clone https://github.com/xybu92/onedrive-d.git
->
-> cd onedrive-d
->
-> ./install.sh
-
+```
+git clone https://github.com/xybu92/onedrive-d.git
+cd onedrive-d
+./install.sh
+```
 运行 onedrive-pref 进行配置https://github.com/xybu/onedrive-d-old/issues/134
 
 运行 onedrive-d start 启动
