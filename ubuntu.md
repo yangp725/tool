@@ -45,7 +45,7 @@ color table, http://www.sioe.cn/yingyong/yanse-rgb-16/
 
 2）16.04双击deb包安装可能会出现第三方支持的原因失败，选择命令安装
 
-​       sudo dpkg -i input.deb，会显示有依赖，需要使用sudo apt-get install 依赖包（sudo apt-get -f install）
+sudo dpkg -i input.deb，会显示有依赖，需要使用sudo apt-get install 依赖包（sudo apt-get -f install）
 
 3）然后在language support把keyboard input method system改成fcitx
 
@@ -193,7 +193,7 @@ source /home/yangpeng/.local/bin/virtualenvwrapper.sh
 
 
 
-###ubuntu onedrive
+### ubuntu onedrive
 https://linux.cn/article-3362-1.html  
 https://github.com/xybu/onedrive-d-old
 ```
@@ -204,5 +204,5 @@ cd onedrive-d
 运行 onedrive-pref 进行配置https://github.com/xybu/onedrive-d-old/issues/134  
 运行 onedrive-d start 启动
 
-###添加用户
+### 添加用户
 https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
