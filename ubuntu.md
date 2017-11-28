@@ -131,22 +131,16 @@ https://segmentfault.com/a/1190000006111096
  -i https://pypi.tuna.tsinghua.edu.cn/simple
  -i https://pypi.douban.com/simple
 ```
-vi ~/.pip/pip.conf
-
+vim ~/.pip/pip.conf
 ```
- [global]
- trusted-host =  mirrors.aliyun.com
- index-url = http://mirrors.aliyun.com/pypi/simple
+[global] 
+trusted-host=pypi.tuna.tsinghua.edu.cn 
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
-**pip更新安装包**：
-
+**pip更新安装包**：  
 pip install Package --upgrade
 
-
-
 ### ZSH
-
 > sudo apt-get install zsh
 >
 > wget --no-check-certificate [https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh](https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh) -O - | sh
