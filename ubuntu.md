@@ -123,9 +123,6 @@ sudo apt-get update
 sudo apt-get install typora
 
 ### 修改pip下载源
-
-https://segmentfault.com/a/1190000006111096
-
 在pip install的最后加上 
 ```
  -i https://pypi.tuna.tsinghua.edu.cn/simple
