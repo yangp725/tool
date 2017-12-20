@@ -1,32 +1,32 @@
-"" colors
-"colorscheme badwolf  " awesome colorscheme
+"配色 colors
+""colorscheme badwolf  " awesome colorscheme
 syntax on  " enable syntax processing
-"" space & tab
+"空格和tab space & tab
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
-" indent
+""缩进 indent
 set autoindent
-"" ui
+"界面ui
 set number              " show line numbers
 set showcmd             " show command in bottom bar
-"set cursorline          " highlight current line
+""set cursorline          " highlight current line
 filetype indent on      " load filetype-specific indent files
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to
 set showmatch           " highlight matching [{()}]
-"" searching
+"搜索 searching
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
-" turn off search highlight
+""turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
-""movement
-" move vertically by visual line
+"移动 movement
+""move vertically by visual line
 nnoremap j gj
 nnoremap k gk
-" move to beginning/end of line
+""move to beginning/end of line
 nnoremap B ^
 nnoremap E $
-"" accessing the system lipboard
+"系统粘贴板 accessing the system lipboard
 set paste " paste from a windows or from vim 
 set clipboard=unnamedplus
