@@ -6,7 +6,10 @@ https://www.sublimetext.com/3
 ```
 {
 "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-"font_face": "courier New bold",
+//"font_face": "courier New bold",
+//"font_face": "Consolas",
+//"font_face": "DejaVu Sans Mono",
+"font_face": "Ubuntu Mono",
 "font_size": 14,
 //"font_weight": "bold",
 "highlight_line": true,
