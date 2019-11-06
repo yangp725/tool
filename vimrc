@@ -458,8 +458,8 @@ function! SetEnv()
     set mouse=
 endfunction
 
-set cursorcolumn!
-"set cursorline!
+"set cursorcolumn!
+set cursorline!
 
 highlight ColorColumn ctermbg=0
 set colorcolumn=108
